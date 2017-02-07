@@ -8,5 +8,5 @@ Following open source files are referenced for the exercise.
 
 compile : $gcc my_app.c -lpcap
 
-usage : $sudo ./my_app dest_port=40 src_ip=1.2.3.4
+usage : $sudo ./my_app dest_port=40 dest_ip=1.2.3.4
 
