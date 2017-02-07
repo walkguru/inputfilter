@@ -6,7 +6,15 @@ Following open source files are referenced for the exercise.
 
 2.http://www.tcpdump.org/sniffex.c
 
+# Usage
+
 compile : $gcc my_app.c -lpcap
 
 usage : $sudo ./my_app dest_port=40 dest_ip=1.2.3.4
+
+TODO:
+
+1. Create Pcap file for Test and test with Pcap file. 
+
+2. Dynamic analysis on arguments
 
