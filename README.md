@@ -1,5 +1,5 @@
 # inputfilter
-Following open source files are referenced for the exercise.
+Following open source files are referenced for this code.
 
 1.http://www.devdungeon.com/content/using-libpcap-c
 2.http://www.tcpdump.org/sniffex.c
