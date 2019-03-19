@@ -1,6 +1,5 @@
 /*
 Following open source files are referenced for the exercise. 
-
 1.http://www.devdungeon.com/content/using-libpcap-c
 2.http://www.tcpdump.org/sniffex.c
 
@@ -267,13 +266,10 @@ void print_packet_info(const u_char *packet, struct pcap_pkthdr header)
 return;
 }
 
-
-
 void print_usage(void)
 {
     printf("Usage: $sudo ./my_app dest_port=21 dest_ip=1.2.3.4\n");
 }
-
 
 int main(int argc, char **argv) {
     char dev[] = "eth0";
